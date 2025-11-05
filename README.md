@@ -40,16 +40,11 @@ This repository contains a variety of SQL queries designed to help **data analys
 ## 🧠 Example
 
 ```sql
--- Example: Ranking top 5 products by total sales
 SELECT 
-    ProductID,
-    ProductName,
-    SUM(Sales) AS TotalSales,
-    RANK() OVER (ORDER BY SUM(Sales) DESC) AS Rank
-FROM Sales
-GROUP BY ProductID, ProductName
-ORDER BY Rank
-FETCH FIRST 5 ROWS ONLY;
+    MIN(order_date) AS first_order_date,
+    MAX(order_date) AS last_order_date,
+    DATEDIFF(MONTH, MIN(order_date), MAX(order_date)) AS order_range_months
+FROM gold.fact_sales;
 
 
 Each SQL script focuses on a specific analytical theme and demonstrates **best practices** for:
