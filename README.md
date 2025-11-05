@@ -1,4 +1,4 @@
-# 🧠 SQL Data Analytics Project
+#  SQL Data Analytics Project
 
 A comprehensive collection of **SQL scripts** for data exploration, analytics, and reporting.
 
@@ -29,7 +29,7 @@ This repository contains a variety of SQL queries designed to help **data analys
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. Run `init_database.sql` to set up the base schema and data.  
 2. Execute any of the analysis scripts to explore or visualize different analytical views.  
@@ -37,7 +37,7 @@ This repository contains a variety of SQL queries designed to help **data analys
 
 ---
 
-## 🧠 Example
+##  Example
 
 ```sql
 SELECT 
@@ -57,7 +57,7 @@ Each SQL script focuses on a specific analytical theme and demonstrates **best p
 
 
 
-🧠 Author
+ Author
 Mariam Sharedeh
-🎓 Passionate about Data Analytics, SQL, and Business Intelligence
+ Passionate about Data Analytics, SQL, and Business Intelligence
 
